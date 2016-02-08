@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerScriptPrototype : MonoBehaviour {
@@ -24,14 +24,14 @@ public class PlayerScriptPrototype : MonoBehaviour {
 		// Check for A key being pressed, move left if true, set Z velocity to 0.0f
 		if (Input.GetKey (KeyCode.A)){
 
-			rigidbody.velocity = new Vector3(-moveVelocity, rigidbody.velocity.y, 0.0f);
+			rigidbody.velocity = new Vector3(-moveVelocity, rigidbody.velocity.y);
 
 		}
 
 		// Check for D key being pressed, move right if true, set Z velocity to 0.0f
 		if(Input.GetKey (KeyCode.D)){
 
-			rigidbody.velocity = new Vector3(moveVelocity, rigidbody.velocity.y, 0.0f);
+			rigidbody.velocity = new Vector2(moveVelocity, rigidbody.velocity.y);
 
 		}
 
@@ -48,23 +48,23 @@ public class PlayerScriptPrototype : MonoBehaviour {
 	{
 		if (onGround == true) {
 			//set positive vertical velocity to jumpHeight, set Z velocity to 0.0f
-			rigidbody.velocity = new Vector3 (rigidbody.velocity.x, jumpHeight, 0.0f);
+			rigidbody.velocity = new Vector2 (rigidbody.velocity.x, jumpHeight);
 
 			onGround = false;
 		} else if (!onGround && canDoubleJump) {
 			//set positive vertical velocity to jumpHeight, set Z velocity to 0.0f
-			rigidbody.velocity = new Vector3 (rigidbody.velocity.x, jumpHeight, 0.0f);
+			rigidbody.velocity = new Vector2 (rigidbody.velocity.x, jumpHeight);
 
 			canDoubleJump = false;
 		}
 	}
 
-	void OnCollisionEnter (Collision hit)
-	{
+	//void OnCollisionEnter (Collision hit)
+	//{
 
-		onGround = true;
-		canDoubleJump = true;
+		//onGround = true;
+		//canDoubleJump = true;
 		//Debug.Log("Colliding");
 
-	}
+	//}
 }
