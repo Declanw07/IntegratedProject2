@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 0c16e5fa3077f404e9dadd91d6d45d22
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KanyeAnmationspritesheet_0
+    21300002: KanyeAnmationspritesheet_1
+    21300004: KanyeAnmationspritesheet_2
+    21300006: KanyeAnmationspritesheet_3
+    21300008: KanyeAnmationspritesheet_4
+    21300010: KanyeAnmationspritesheet_5
+    21300012: KanyeAnmationspritesheet_6
+    21300014: KanyeAnmationspritesheet_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KanyeAnmationspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 301
+        width: 484
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 293
+        width: 488
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 293
+        width: 521
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 293
+        width: 538
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 273
+        width: 508
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 277
+        width: 500
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 269
+        width: 493
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeAnmationspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 264
+        width: 480
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
